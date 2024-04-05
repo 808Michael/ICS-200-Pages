@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-size: 50px;
+    background-color: mintcream;
+  }
+  
+  .child {
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #calculator {
+    background-color: black;
+    border: .5rem solid darkslategrey;
+    margin:auto;
+    display: grid;
+    grid-template-areas: 
+    "result result result result"
+    "ac plus-minus percent division"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero decimal equals equals";
+    gap: 5px;
+    width: 600px;
+    margin-top: 200px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  div {
+    padding: 10px;
+    text-align: center; /* Center the text in all divs */
+  }
+  
+  .gray-bg {
+    background-color: gray;
+  }
+  
+  .blue-bg {
+    background-color: aqua;
+  }
+  
+  .orange-bg {
+    background-color: orange;
+  }
+  
+  .teal-bg {
+    background-color: teal;
+  }
+  
+  #result {
+    grid-area: result;
+    text-align: right;
+  }
+  
+  #ac {
+    grid-area: ac;
+  }
+  
+  #plus-minus {
+    grid-area: plus-minus;
+  }
+  
+  #percent {
+    grid-area: percent;
+  }
+  
+  #division {
+    grid-area: division;
+  }
+  
+  #seven {
+    grid-area: seven;
+  }
+  
+  #eight {
+    grid-area: eight;
+  }
+  
+  #nine {
+    grid-area: nine;
+  }
+  
+  #multiply {
+    grid-area: multiply;
+  }
+  
+  #four {
+    grid-area: four;
+  }
+  
+  #five {
+    grid-area: five;
+  }
+  
+  #six {
+    grid-area: six;
+  }
+  
+  #subtract {
+    grid-area: subtract;
+  }
+  
+  #one {
+    grid-area: one;
+  }
+  
+  #two {
+    grid-area: two;
+  }
+  
+  #three {
+    grid-area: three;
+  }
+  
+  #add {
+    grid-area: add;
+  }
+  
+  #zero {
+    grid-area: zero;
+  }
+  
+  #decimal {
+    grid-area: decimal;
+  }
+  
+  #equals {
+    grid-area: equals;
+  }
+  
