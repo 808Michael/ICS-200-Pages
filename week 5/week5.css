@@ -1,0 +1,32 @@
+body {
+    font-family: fantasy;
+    background-color: #C2E9FB;
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 2em;
+}
+
+h3 {
+    color: #008080;
+    text-align: left;
+    font-size: 22px;
+}
+
+p {
+    color: #008080;
+    text-align: left;
+    font-size: 22px;
+}
+
+.Naruto {
+float: left;    
+}
